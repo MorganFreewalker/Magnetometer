@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		123A84121FDAAF84002DFC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84111FDAAF84002DFC2B /* AppDelegate.swift */; };
-		123A84141FDAAF84002DFC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84131FDAAF84002DFC2B /* ViewController.swift */; };
+		123A84141FDAAF84002DFC2B /* MagnetometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84131FDAAF84002DFC2B /* MagnetometerViewController.swift */; };
 		123A84171FDAAF84002DFC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123A84151FDAAF84002DFC2B /* Main.storyboard */; };
 		123A84191FDAAF84002DFC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123A84181FDAAF84002DFC2B /* Assets.xcassets */; };
 		123A841C1FDAAF84002DFC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123A841A1FDAAF84002DFC2B /* LaunchScreen.storyboard */; };
+		123A84241FDAB04A002DFC2B /* MagnetometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84231FDAB04A002DFC2B /* MagnetometerManager.swift */; };
+		123A84261FDAB4B2002DFC2B /* MagnetometerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84251FDAB4B2002DFC2B /* MagnetometerInteractor.swift */; };
+		123A84281FDAB529002DFC2B /* MagnetometerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A84271FDAB529002DFC2B /* MagnetometerPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		123A840E1FDAAF84002DFC2B /* Magnetometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnetometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		123A84111FDAAF84002DFC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		123A84131FDAAF84002DFC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		123A84131FDAAF84002DFC2B /* MagnetometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerViewController.swift; sourceTree = "<group>"; };
 		123A84161FDAAF84002DFC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		123A84181FDAAF84002DFC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		123A841B1FDAAF84002DFC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		123A841D1FDAAF84002DFC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		123A84231FDAB04A002DFC2B /* MagnetometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerManager.swift; sourceTree = "<group>"; };
+		123A84251FDAB4B2002DFC2B /* MagnetometerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerInteractor.swift; sourceTree = "<group>"; };
+		123A84271FDAB529002DFC2B /* MagnetometerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				123A84111FDAAF84002DFC2B /* AppDelegate.swift */,
-				123A84131FDAAF84002DFC2B /* ViewController.swift */,
+				123A84131FDAAF84002DFC2B /* MagnetometerViewController.swift */,
+				123A84271FDAB529002DFC2B /* MagnetometerPresenter.swift */,
+				123A84251FDAB4B2002DFC2B /* MagnetometerInteractor.swift */,
+				123A84231FDAB04A002DFC2B /* MagnetometerManager.swift */,
 				123A84151FDAAF84002DFC2B /* Main.storyboard */,
 				123A84181FDAAF84002DFC2B /* Assets.xcassets */,
 				123A841A1FDAAF84002DFC2B /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123A84141FDAAF84002DFC2B /* ViewController.swift in Sources */,
+				123A84261FDAB4B2002DFC2B /* MagnetometerInteractor.swift in Sources */,
+				123A84141FDAAF84002DFC2B /* MagnetometerViewController.swift in Sources */,
+				123A84241FDAB04A002DFC2B /* MagnetometerManager.swift in Sources */,
+				123A84281FDAB529002DFC2B /* MagnetometerPresenter.swift in Sources */,
 				123A84121FDAAF84002DFC2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
